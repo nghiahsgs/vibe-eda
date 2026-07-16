@@ -1,0 +1,24 @@
+{
+  "name": "vibe-eda",
+  "version": "1.0.0",
+  "description": "> Drag-and-drop PCB design in the browser — no coding needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sandcastle": "npx tsx .sandcastle/main.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghiahsgs/vibe-eda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghiahsgs/vibe-eda/issues"
+  },
+  "homepage": "https://github.com/nghiahsgs/vibe-eda#readme",
+  "devDependencies": {
+    "@ai-hero/sandcastle": "^0.12.0"
+  }
+}
