@@ -44,3 +44,17 @@ Learning vehicle for the "From Idea to PR" workflow — grown one small slice at
 - Do we need persistence in v1 (localStorage), or purely in-memory?
 - Grid + snapping in the first slice, or free positioning?
 - Units / board coordinate system (mm vs mils vs px)?
+
+## Agent skills
+
+### Issue tracker
+
+Issues/PRDs live in GitHub Issues (`gh` CLI), repo `nghiahsgs/vibe-eda`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical roles, label strings equal to their names. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` + `docs/adr/` at repo root (created lazily). See `docs/agents/domain.md`.
