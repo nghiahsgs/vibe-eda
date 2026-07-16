@@ -30,6 +30,7 @@ Learning vehicle for the "From Idea to PR" workflow — grown one small slice at
 ## Workflows
 
 - dev / test / build commands: _to be added once the stack is scaffolded._
+- Testing: run/verify the app through Aspire (TS AppHost `aspire-apphost/apphost.mts`, CLI 13.4) — `aspire start`/`aspire wait`, not direct process launch. Read logs from Aspire (`aspire logs`, `aspire otel logs`), not per-process output.
 
 ## Progressive disclosure
 
