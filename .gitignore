@@ -28,3 +28,6 @@ yarn-error.log*
 
 # Agent worktrees
 .claude/worktrees/
+
+# Aspire generated cache
+.aspire/

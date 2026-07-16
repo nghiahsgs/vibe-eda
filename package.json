@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sandcastle": "npx tsx .sandcastle/main.mts"
+    "sandcastle": "npx tsx .sandcastle/main.mts",
+    "aspire:start": "npm --prefix aspire-apphost run aspire:start",
+    "aspire:build": "npm --prefix aspire-apphost run aspire:build",
+    "aspire:dev": "npm --prefix aspire-apphost run aspire:dev"
   },
   "repository": {
     "type": "git",
